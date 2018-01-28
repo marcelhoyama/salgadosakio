@@ -28,7 +28,7 @@ Mini-Salgados ( Venda Atacado e varejo)
 <li>Kibe</li>
 <li>Kibe com Requeijão</li>
 <li>Croquete de carne</li>
-<li>Almofadinha de Calabresa</li></br>
+<li>Almofadinha de Calabresa - Novidade!</li></br>
 
 Salgados de Bar 150gr (Somente Atacado)
 <hr>
@@ -38,7 +38,7 @@ Salgados de Bar 150gr (Somente Atacado)
 <li>Enroladinho de Salsicha</li>
 <li>Risole de Carne</li>
 <li>Risole de Frango com Requeijão</li>
-<li>Risole de Palmito</li>
+<li>Risole de Palmito - Novidade!</li>
 </h3>
 
 </div>

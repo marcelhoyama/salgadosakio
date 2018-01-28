@@ -78,7 +78,8 @@
             <div class="thumbnail">
                 <div class="caption">
                     <h3>Risole de Palmito </h3>
-                    <p>Novidade! Experimente...por tempo limitado!</p>
+                    <p>Novidade! Venha Experimenta...por tempo limitado!</p>
+                    <p>Encomende já...</p>
                         
 
                 </div>
