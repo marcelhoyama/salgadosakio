@@ -38,6 +38,7 @@ Salgados de Bar 150gr (Somente Atacado)
 <li>Enroladinho de Salsicha</li>
 <li>Risole de Carne</li>
 <li>Risole de Frango com Requeijão</li>
+<li>Risole de Palmito</li>
 </h3>
 
 </div>
