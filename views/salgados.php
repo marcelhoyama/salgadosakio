@@ -73,6 +73,17 @@
                 </div>
             </div>
         </div>
+        
+         <div class="col-xs-12 col-sm-4">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h3>Risole de Palmito </h3>
+                    <p>Novidade! Experimente...por tempo limitado!</p>
+                        
+
+                </div>
+            </div>
+        </div>
     
     </div>
    
