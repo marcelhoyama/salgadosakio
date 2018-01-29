@@ -10,7 +10,7 @@
        
         <h3>Faça a seu pedido: <?php echo $value = $viewData['telefone'];?>  /
                     <?php echo $value = $viewData['celular'];?>  / <?php echo $value = $viewData['email'];?>     </h3>
-        <p>Em grande quantidade Avise-nos com antecedência! </p> 
+        <p>Somente Atacado - Em grande quantidade Avise-nos com antecedência! </p> 
        
 
     </div>
