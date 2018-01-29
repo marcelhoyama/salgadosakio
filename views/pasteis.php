@@ -8,7 +8,7 @@
                 <p>Prontos para fritar!</p>
                 <h3>Faça a seu pedido: <?php echo $value = $viewData['telefone'];?>  /
                     <?php echo $value = $viewData['celular'];?>  / <?php echo $value = $viewData['email'];?>    </h3>            
-                <p>Sob encomenda!</p>  
+                <p>Somente Atacado e Sob encomenda!</p>  
        
 
             </div>
