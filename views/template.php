@@ -41,19 +41,19 @@
 
                         <li><a href="<?php BASE_URL; ?>home">HOME</a></li>
                         <li><a href="<?php BASE_URL; ?>sobre">SOBRE</a></li>
-                        
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUTOS<span class="caret"></span></a>
-                          
-    <ul class="dropdown-menu">
-        <li><a href="produto">Todos</a></li>
-        <li><a href="pasteis">Pastéis</a></li>
-        <li><a href="salgados">Salgados</a></li>
-        <li><a href="minipasteis">Mini-Pastéis</a></li>
-        <li><a href="minisalgados">Mini-Salgados</a></li>
-    </ul>
-  </li>
-                            </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUTOS<span class="caret"></span></a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="produto">Todos</a></li>
+                                <li><a href="pasteis">Pastéis</a></li>
+                                <li><a href="salgados">Salgados</a></li>
+                                <li><a href="minipasteis">Mini-Pastéis</a></li>
+                                <li><a href="minisalgados">Mini-Salgados</a></li>
+                            </ul>
+                        </li>
+                        </li>
                         <li><a href="<?php BASE_URL; ?>contato">CONTATO</a></li>
 
 
@@ -64,22 +64,107 @@
                 </div>
             </div>
         </nav>
+        <?php
+        $pagina = "pagina";
+        if ($pagina == "pagina") {
+            ?>
+            <script>
+
+                $(document).ready(function () {
+                    $('#myModal').modal('show');
+                });
+
+            </script>
+
+        <?php }
+        ?>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel" style="background:red">Novidades! Por tempo limitado...</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <p>Salgados de Bar</p>
+                                        <h3>Risole de Palmito </h3>
+                                        
+                                        <p>Encomende já...</p>
 
 
-         
-        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                         <p>Mini Salgados</p>
+                                        <h3>Mini Almofadinha de Calabresa </h3>
+                                       
+                                        <p>Encomende já...</p>
 
-        
-                <!--  aqui onde vai o corpo das paginas do sistema -->
-                <?php $this->loadViewInTemplate($viewName, $viewData); ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- row -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <a href="javascript:;" onclick="pedido()"> <button type="button" class="btn btn-primary">Fazer Pedido</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+            <script>
+function pedido(){
+     
+                    $('#myModalpedido').modal('show');
+                $('#myModal').modal('hide');
+
+}
+              
+            </script>
+
+       
+        <!-- Modal -->
+        <div class="modal fade" id="myModalpedido" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel" style="background:red">Nossos Contatos</h4>
+                    </div>
+                    <div class="modal-body">
+                       Endereço: Avenida São Paulo, nº828 - Bairro Jacaré - Distrito Jacaré - Cabreúva/SP. Ao lado da Pastelaria Akio!</br>
+Telefone fixo:   <?php    echo $value = $viewData['telefone'];  ?></br>
+Celular: <?php    echo $value = $viewData['celular'];  ?></br>
+Email: <?php    echo $value = $viewData['email'];  ?></br>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--  aqui onde vai o corpo das paginas do sistema -->
+        <?php $this->loadViewInTemplate($viewName, $viewData); ?>
 
 
 
 
-            
-          
+
+
     </body>
-  
+
     <footer>
         <div class="rodape">
             SALGADOSAKIO 2010 Todos Direitos Reservados. Desenvolvido por Marcel Hoyama

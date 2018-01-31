@@ -3,9 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/salgadosakio/views/sobre.php</file>
-            <file>file:/C:/xampp/htdocs/salgadosakio/views/salgados.php</file>
-            <file>file:/C:/xampp/htdocs/salgadosakio/views/produto.php</file>
+            <file>file:/C:/xampp/htdocs/akioSalgados/config.php</file>
+            <file>file:/C:/xampp/htdocs/akioSalgados/views/contato.php</file>
+            <file>file:/C:/xampp/htdocs/akioSalgados/views/minisalgados.php</file>
+            <file>file:/C:/xampp/htdocs/akioSalgados/views/salgados.php</file>
+            <file>file:/C:/xampp/htdocs/akioSalgados/views/home.php</file>
+            <file>file:/C:/xampp/htdocs/akioSalgados/views/template.php</file>
+            <file>file:/C:/xampp/htdocs/akioSalgados/views/produto.php</file>
+            <file>file:/C:/xampp/htdocs/akioSalgados/assets/css/style.css</file>
         </group>
     </open-files>
 </project-private>

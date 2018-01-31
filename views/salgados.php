@@ -6,17 +6,17 @@
         <h2>SALGADOS DE BAR - AKIO (150g)</h2>
 
         <hr/>
-         <p>Pronta Entrega! E prontos para fritar! </p> 
+         <p> Sob Encomenda! Prontos para fritar! </p> 
        
         <h3>Faça a seu pedido: <?php echo $value = $viewData['telefone'];?>  /
                     <?php echo $value = $viewData['celular'];?>  / <?php echo $value = $viewData['email'];?>     </h3>
-        <p>Somente Atacado - Em grande quantidade Avise-nos com antecedência! </p> 
+        <p>Somente Atacado!</p> 
        
 
     </div>
 
     <div class="row" >
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-12 col-sm-4">
             <div class="thumbnail">
                 <div class="caption">
                     <h3>Coxinha de Frango</h3>
@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-12 col-sm-4">
             <div class="thumbnail">
                 <div class="caption">
                     <h3>Enroladinho de Salsicha </h3>
@@ -53,7 +53,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-12 col-sm-4">
             <div class="thumbnail">
                 <div class="caption">
                     <h3>Risole de Carne </h3>

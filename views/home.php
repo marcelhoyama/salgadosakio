@@ -17,8 +17,8 @@
 
 <div class="row" >
     <div class="col-xs-12 col-sm-3">
-        <div class="thumbnail">
-            <a  href="<?php BASE_URL; ?>minisalgados">    <img src="<?php BASE_URL ?>assets/images/minisalgados.jpg" class=" img-rounded" style="width:100%;height:190px"></a>
+        <div class="thumbnail ">
+            <a  href="<?php BASE_URL; ?>minisalgados">    <img src="<?php BASE_URL ?>assets/images/minisalgados.jpg" class=" img-rounded img-fluid"></a>
         <div class="caption">
         <h3>Mini Salgados</h3>
         <p><h3>Prontos para fritar!</h3> </p>
@@ -29,7 +29,7 @@
         </div>
     <div class="col-xs-12 col-sm-3">
         <div class="thumbnail">
-            <a href="<?php BASE_URL; ?>salgados">  <img src="<?php BASE_URL ?>assets/images/salgados.jpg" class="img-rounded" style="width:100%;height:190px"></a>
+            <a href="<?php BASE_URL; ?>salgados">  <img src="<?php BASE_URL ?>assets/images/salgados.jpg" class="img-rounded img-fluid"></a>
     <div class="caption">
         <h3>Salgados de Bar</h3>
         <p><h3>Prontos para fritar!</h3> </p>
@@ -39,7 +39,7 @@
     </div>
     <div class="col-xs-12 col-sm-3">
         <div class="thumbnail">
-            <a href="<?php BASE_URL; ?>pasteis">     <img src="<?php BASE_URL ?>assets/images/pasteis.jpg" class="img-rounded" style="width: 100%;height:190px "> </a>
+            <a href="<?php BASE_URL; ?>pasteis">     <img src="<?php BASE_URL ?>assets/images/pasteis.jpg" class="img-rounded img-fluid"> </a>
         <div class="caption">
         <h3>Pastéis</h3>
         <p><h3>Prontos para fritar!</h3> </p>
@@ -50,7 +50,7 @@
     
     <div class="col-xs-12 col-sm-3">
         <div class="thumbnail">
-            <a href="<?php BASE_URL; ?>minipasteis"><img src="<?php BASE_URL ?>assets/images/minipasteis.jpg"class="img-rounded" style="width:100%;height:190px"></a>
+            <a href="<?php BASE_URL; ?>minipasteis"><img src="<?php BASE_URL ?>assets/images/minipasteis.jpg"class="img-rounded img-fluid"></a>
     <div class="caption">
         <h3>Mini Pastéis</h3>
         <p><h3>Prontos para fritar!</h3> </p>
