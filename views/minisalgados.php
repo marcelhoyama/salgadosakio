@@ -16,7 +16,7 @@
     </div>
 
     <div class="row" >
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-12 col-sm-4">
             <div class="thumbnail">
                 <div class="caption">
                     <h3>Mini Coxinha de Frango</h3>
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-12 col-sm-4">
             <div class="thumbnail">
                 <div class="caption">
                     <h3>Mini Kibe de Carne</h3>
@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-12 col-sm-4">
             <div class="thumbnail">
                 <div class="caption">
                     <h3>Mini Risole de Carne </h3>
@@ -53,7 +53,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-12 col-sm-4">
             <div class="thumbnail">
                 <div class="caption">
                     <h3>Mini Croquete de Carne </h3>
@@ -63,7 +63,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-12 col-sm-4">
             <div class="thumbnail">
                 <div class="caption">
                     <h3>Mini Bolinho de Queijo </h3>
@@ -73,7 +73,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-12 col-sm-4">
             <div class="thumbnail">
                 <div class="caption">
                     <h3>Mini Bolinho de Presunto e Queijo </h3>
@@ -88,7 +88,7 @@
                 <div class="caption">
                     <h3>Mini Almofadinha de Calabresa </h3>
 
-                    <p>Novidade! Temporario! Experimente... </p>
+                    <p>Novidade!Por tempo limitado! Encomende já... </p>
 
 
                 </div>

@@ -1,44 +1,106 @@
 <title>Akio - Produtos</title>
 <div class="container-fluid">
-<h2>Todos os Produtos</h2>
-<h3>Pastéis (Somente Atacado)
-<hr>
+    <center><h2>Todos os Produtos</h2></center>
+    <table class="table table-striped">
+        <thead>
 
-<li>Carne</li>
-<li>Queijo</li>
-<li>Pizza</li>
-<li>Calabresa</li>
-<li>Frango com Requeijão</li>
-<li>4 Queijos</li>
-<li>Especial de Carne</li>
-<li>Massa para Pastel</li></br>
+            <tr>
+                <th>Pastéis (Somente Atacado)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carne</td>
+            </tr>
+            <tr>
 
+                <td>Queijo</td>
+            </tr>
+            <tr>
+                <td>Pizza</td>
+            </tr>
+            <tr>
+                <td>Calabresa</td>
+            </tr>
+            <tr>
+                <td>Frango com Requeijão</td>
+            </tr>
+            <tr>
+                <td>4 Queijos</td>
 
-Mini-Pastéis (Venda Atacado e Varejo)
-<hr>
-<li>Carne</li>
-<li>Queijo</li>
-<li>Pizza</li></br>
-
-Mini-Salgados ( Venda Atacado e varejo)
-<hr>
-<li>Coxinha de Frango</li>
-<li>Bolinho de queijo</li>
-<li>Bolinho de Presunto e queijo</li>
-<li>Kibe</li>
-<li>Kibe com Requeijão</li>
-<li>Croquete de carne</li>
-<li>Almofadinha de Calabresa - Novidade!</li></br>
-
-Salgados de Bar 150gr (Somente Atacado)
-<hr>
-<li>Coxinha de Frango</li>
-<li>Bolinho de Ovo com Carne</li>
-<li>Enroladinho de Presunto e Queijo</li>
-<li>Enroladinho de Salsicha</li>
-<li>Risole de Carne</li>
-<li>Risole de Frango com Requeijão</li>
-<li>Risole de Palmito - Novidade!</li>
-</h3>
-
+            </tr>
+            <tr>
+                <td>Especial de Carne</td>
+            </tr>
+            <tr>
+                <td>Massa para Pastel</td>
+            </tr>
+        </tbody>
+        <thead>
+        <th>Mini-Pastéis (Venda Atacado e Varejo)</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carne</td>
+            </tr>
+            <tr>
+                <td>Queijo</td>
+            </tr>
+            <tr>
+                <td>Pizza</li></td>
+            </tr>
+        </tbody>
+        <thead>
+        <th>Mini-Salgados ( Venda Atacado e varejo)</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Coxinha de Frango</td>
+            </tr>
+            <tr>
+                <td>Bolinho de queijo</td>
+            </tr>
+            <tr>
+                <td>Bolinho de Presunto e queijo</td>
+            </tr>
+            <tr>
+                <td>Kibe</td>
+            </tr>
+            <tr>
+                <td>Kibe com Requeijão</td>
+            </tr>
+            <tr>
+                <td>Croquete de carne</td>
+            </tr>
+            <tr>
+                <td>Almofadinha de Calabresa - Novidade!</td>
+            </tr>
+        </tbody>
+        <thead>
+        <th>Salgados de Bar 150gr (Somente Atacado)</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Coxinha de Frango</td>
+            </tr>
+            <tr>
+                <td>Bolinho de Ovo com Carne</td>
+            </tr>
+            <tr>
+                <td>Enroladinho de Presunto e Queijo</td>
+            </tr>
+            <tr>
+                <td>Enroladinho de Salsicha</td>
+            </tr>
+            <tr>
+                <td>Risole de Carne</td>
+            </tr>
+            <tr>
+                <td>Risole de Frango com Requeijão</td>
+            </tr>
+            <tr>
+                <td>Risole de Palmito - Novidade!</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
