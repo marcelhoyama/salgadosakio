@@ -42,8 +42,8 @@ and open the template in the editor.
     font-size: 18px;
 }
 .mapa{
-    float:right;
-    width: 600px;
+    
+    width: auto;
     height: 400px;
     
    }
@@ -53,7 +53,9 @@ and open the template in the editor.
      .mapamobile2{
        display:none;
    }
-   
+     .mapamobile3{
+       display:none;
+   }
    
   
    .containerbutton{
@@ -106,8 +108,8 @@ and open the template in the editor.
     }
     .mapamobile{
         display: block;
-          float:left;
-        
+          width: auto;
+         margin: 5px 5px 5px 5px;
        
     }
     .mapamobile2{
@@ -160,11 +162,30 @@ and open the template in the editor.
     }
     .mapamobile2{
         display: block;
-         float: left;
-         margin: 5px;
+         width: auto;
+         margin: 10px 10px 10px 10px;
     }
-    @media only screen and(max-width:768){
+    @media only screen and(min-width:701) and(max-width:846){
+     
         
+            .mapa{
+        display: none;
+         
+    }
+      .mapamobile{
+       display:none;
+   }
+            .mapamobile2{
+        display: none;
+         
+    }
+        .mapamobile3{
+        display: block;
+         width: auto;
+         height: 350px;
+         padding-top: 10px;
+         margin: 10px 10px 10px 10px;
+    }
     }
     
    
