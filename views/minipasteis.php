@@ -5,10 +5,11 @@
                 <h2>MINI-PASTÉIS - AKIO </h2>
                 
                 <hr/>
-                <p>Prontos para fritar!</p>
-                <h3>Faça a seu pedido:<?php echo $value = $viewData['telefone'];?>  /
-                    <?php echo $value = $viewData['celular'];?>  / <?php echo $value = $viewData['email'];?>    </h3>            
-                <p>Atacado e Varejo e Sob encomenda! </p>  
+            <p class="text-md-left">Prontos para fritar!</p>
+                <p class="text-lg-left">Faça a seu pedido:<?php echo $value = $viewData['telefone'];?>
+                / <?php echo $value = $viewData['celular'];?> </p> 
+                <p class="text-lg-left"><?php echo $value = $viewData['email'];?>    </p>            
+                <p class="text-md-left">Atacado e Varejo e Sob encomenda! </p>  
        
 
             </div>

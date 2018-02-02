@@ -53,6 +53,19 @@ and open the template in the editor.
      .mapamobile2{
        display:none;
    }
+   
+   
+  
+   .containerbutton{
+       width: auto;
+       float: left;
+       margin-top: 0px;
+       padding-top: 0px;
+       
+       font-size: 28px;
+       padding-bottom: 1px;
+       margin-right: 20px;
+   }
 
 
 /* Smartphones (portrait and landscape) ———– */

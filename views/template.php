@@ -84,17 +84,18 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel" style="background:red">Novidades! Por tempo limitado...</h4>
+                      <h4 class="modal-title" id="myModalLabel">  <p class="text-center text-danger">Novidades! Por tempo limitado...</p></h4>
                     </div>
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-xs-6 col-sm-6">
                                 <div class="thumbnail">
                                     <div class="caption">
-                                        <p>Salgados de Bar</p>
-                                        <h3>Risole de Palmito </h3>
-                                        
-                                        <p>Encomende já...</p>
+                                        <p class="text-center">Salgados de Bar</p>
+                                        <hr>
+                                        <p class="text-xl-left">Risole de Palmito </p>
+                                        <hr>
+                                        <p class="text-left">Encomende já...</p>
 
 
                                     </div>
@@ -103,10 +104,11 @@
                             <div class="col-xs-6 col-sm-6">
                                 <div class="thumbnail">
                                     <div class="caption">
-                                         <p>Mini Salgados</p>
-                                        <h3>Mini Almofadinha de Calabresa </h3>
-                                       
-                                        <p>Encomende já...</p>
+                                        <p class="text-center">Mini Salgados</p>
+                                        <hr>
+                                        <p class="text-xl-left">Mini Almofadinha de Calabresa </p>
+                                        <hr>
+                                        <p class="text-left">Encomende já...</p>
 
                                     </div>
                                 </div>
@@ -139,10 +141,11 @@ function pedido(){
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel" style="background:red">Nossos Contatos</h4>
+                        <h4 class="modal-title" id="myModalLabel"><p class="text-danger text-center">Nossos Contatos</p></h4>
                     </div>
                     <div class="modal-body">
-                       Endereço: Avenida São Paulo, nº828 - Bairro Jacaré - Distrito Jacaré - Cabreúva/SP. Ao lado da Pastelaria Akio!</br>
+                        Endereço: Avenida São Paulo, nº828 - Bairro Jacaré - Distrito Jacaré - Cabreúva/SP.
+                        <p> Ao lado da Pastelaria Akio!</p></br>
 Telefone fixo:   <?php    echo $value = $viewData['telefone'];  ?></br>
 Celular: <?php    echo $value = $viewData['celular'];  ?></br>
 Email: <?php    echo $value = $viewData['email'];  ?></br>
@@ -167,7 +170,7 @@ Email: <?php    echo $value = $viewData['email'];  ?></br>
 
     <footer>
         <div class="rodape">
-            SALGADOSAKIO 2010 Todos Direitos Reservados. Desenvolvido por Marcel Hoyama
+            SALGADOSAKIO © 2010 – <?php echo date('Y'); ?> Todos Direitos Reservados. Desenvolvido por Marcel Hoyama
         </div>
     </footer>
 
