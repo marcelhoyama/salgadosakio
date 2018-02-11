@@ -35,6 +35,10 @@ public function run() {
 			$currentAction = 'index';
 		}
                 
+                if(!file_exists('controllers/'.$currentController.'.php') || !method_exists($currentController,$currentAction)){
+                    $currentController = 'notfoundController';
+			$currentAction = 'index';
+                }
 		$c = new $currentController();
 		call_user_func_array(array($c, $currentAction), $params);
 
